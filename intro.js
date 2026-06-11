@@ -108,3 +108,61 @@ console.log(subtracao)
 
 let soma = 100 + "5"
 console.log(soma)
+
+//Conversão 
+Number("120")  //output: 120
+parseInt("3.24") // output: 3
+parseFloat("2.33")  //output: 2.33
+String(20)  //output: "20"
+// subtracao.toFixed(2)  //output: 1005.00
+// pessoa.nome.toUpperCase() // output: "NAYARA" 
+// pessoa.nome.toLowerCase() // output: "nayara"
+
+//Métodos de saída
+console.log("Registra uma informação no console do navegador")
+alert("Estou mostrando uma informação para o usuário")
+
+//Método de entrada
+const nomeCompleto = prompt("Digite seu nome completo")
+const notificacoes = confirm("Aceita receber notificações?")
+
+
+// -----------------
+alert(nomeCompleto)
+
+//Operadores
+
+//Operadores aritméticos
+5 + 5            //10
+10 + Number("5") // 15
+3 - 2            //1
+3 * 2            //6
+10 / 2           //5
+10++             //11
+2--              //1 
+
+//Operadores atribuição
+2 += 2           //4
+10 -= 2          //8
+10 *= 2          //20
+10 /= 10         //1
+
+//Operadores de comparação (output sempre booleano)
+2 == "2"         //true  - igual em valor
+2 === "2"        //false - igual em valor e tipo
+2 != "2"         //false - diferente em valor
+2 !== "2"        //true - diferente em valor e tipo
+5 > 2            //true
+10 < 1           //false
+5 >= 5           //true
+13 <= 15         //true
+
+//Operadores lógicos (output sempre booleano)
+
+true && true     //true |   AND - as duas operações verdadeiras
+false || true    //true |   OR - apenas uma precisa ser verdadeira
+!false           //true |   negação - oposto do tipo natural
+!!true           //true |   dupla negação - mostra o valor natural da expressão
+
+
+
