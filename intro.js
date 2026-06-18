@@ -106,7 +106,7 @@ console.log(mostrarProduto2)
 let subtracao = "100" - 5
 console.log(subtracao)
 
-let soma = 100 + "5"
+let soma = 100 + "5"  //output: 1005
 console.log(soma)
 
 //Conversão 
@@ -159,7 +159,7 @@ alert(nomeCompleto)
 
 //Operadores lógicos (output sempre booleano)
 
-true && true     //true |   AND - as duas operações verdadeiras
+true && true    //true |   AND - as duas operações verdadeiras
 false || true    //true |   OR - apenas uma precisa ser verdadeira
 !false           //true |   negação - oposto do tipo natural
 !!true           //true |   dupla negação - mostra o valor natural da expressão
